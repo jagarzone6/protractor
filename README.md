@@ -1,2 +1,2 @@
-# protractor
-protractor base project
+# protractor testing automation
+protractor base project over nodejs
