@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "protractor": "5.1.2",
-    "webdriver-manager" : ""
+    "webdriver-manager" : "",
+    "jasmine-reporters": ""
   },
   "homepage": "https://github.com/jagarzone6/protractor#readme"
 }
