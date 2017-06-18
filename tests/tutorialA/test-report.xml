@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
- <testsuite name="Protractor Demo App" timestamp="2017-06-18T17:51:17" hostname="localhost" time="7.441" errors="0" tests="3" skipped="0" disabled="0" failures="0">
-  <testcase classname="Protractor Demo App" name="should have a title" time="1.771" />
-  <testcase classname="Protractor Demo App" name="should add one and two" time="2.947" />
-  <testcase classname="Protractor Demo App" name="should add four and six" time="2.72" />
+ <testsuite name="Protractor Demo App" timestamp="2017-06-18T17:55:24" hostname="localhost" time="22.747" errors="0" tests="5" skipped="0" disabled="0" failures="2">
+  <testcase classname="Protractor Demo App" name="should have a title" time="1.656" />
+  <testcase classname="Protractor Demo App" name="should add one and two" time="4.168" />
+  <testcase classname="Protractor Demo App" name="should add four and six" time="2.797" />
+  <testcase classname="Protractor Demo App" name="should have a history" time="7.885">
+   <failure type="toEqual" message="Expected 3 to equal 0."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (/home/jagarzone/IdeaProjects/protractor/tests/tutorialA/spec.js:49:33)
+    at /home/jagarzone/IdeaProjects/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/home/jagarzone/IdeaProjects/protractor/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/home/jagarzone/IdeaProjects/protractor/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/home/jagarzone/IdeaProjects/protractor/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/home/jagarzone/IdeaProjects/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/home/jagarzone/IdeaProjects/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/home/jagarzone/IdeaProjects/protractor/node_modules/selenium-webdriver/lib/promise.js:2860:25)
+    at /home/jagarzone/IdeaProjects/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Protractor Demo App" name="should have a history" time="6.239">
+   <failure type="toContain" message="Expected &apos;5:55:46 PM 3 + 4 7&apos; to contain &apos;foo&apos;."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (/home/jagarzone/IdeaProjects/protractor/tests/tutorialA/spec.js:57:43)
+    at /home/jagarzone/IdeaProjects/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/home/jagarzone/IdeaProjects/protractor/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/home/jagarzone/IdeaProjects/protractor/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/home/jagarzone/IdeaProjects/protractor/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/home/jagarzone/IdeaProjects/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/home/jagarzone/IdeaProjects/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/home/jagarzone/IdeaProjects/protractor/node_modules/selenium-webdriver/lib/promise.js:2860:25)
+    at /home/jagarzone/IdeaProjects/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)]]>
+   </failure>
+  </testcase>
  </testsuite>
 </testsuites>
